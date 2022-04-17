@@ -29,8 +29,8 @@ export const Flat = () => {
 
     try {
       fetch(
-        // ` http://localhost:4500/flat/${filter}/${value}/?page=${page}&size=${4}`
-        `https://apartment-flat-manager.herokuapp.com/flat/${filter}/${value}/?page=${page}&size=${4}`
+         ` http://localhost:4500/flat/${filter}/${value}/?page=${page}&size=${4}`
+      
       )
         .then((d) => d.json())
         .then((res) => {
