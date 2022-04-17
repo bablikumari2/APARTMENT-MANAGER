@@ -23,13 +23,18 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border-left: 5px solid #f3ebe0;
-    border-right: 1px solid #f3ebe0;
-    border-top: 1px solid #f3ebe0;
-    border-bottom: 1px solid #f3ebe0;
+    border-left: 5px solid #7c5217;
+    border-right: 1px solid #8d580d;
+    border-top: 1px solid #7a4a06;
+    border-bottom: 1px solid #7b4a05;
     backdrop-filter: blur(10px);
     height: 574px;
     overflow-y: scroll;
+  }
+  #flatData p{
+    color: rgb(25, 6, 135);
+    font-size: medium;
+    font-weight: bolder;
   }
   
   #backBtn{
@@ -43,8 +48,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #54BAB9; 
-    border: 1px solid #54BAB9 ;
+    color: #20118c; 
+    border: 1px solid #1b096d ;
     background-color: rgb(218, 218, 218);
     transition: 0.5s;
   }

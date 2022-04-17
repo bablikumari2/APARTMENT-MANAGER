@@ -16,7 +16,8 @@ export const Register =() =>{
       };
     
       const register = () => {
-        fetch(`https://apartment-flat-manager.herokuapp.com/manager`, {
+        // fetch(` https://babli-apartment.herokuapp.com/manager`, {
+          fetch(` https://apartment-flat-manager.herokuapp.com/manager`, {
           method: "POST",
           body: JSON.stringify(form),
           headers: { "content-type": "application/json" },

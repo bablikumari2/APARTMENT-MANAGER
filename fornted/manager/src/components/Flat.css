@@ -21,7 +21,7 @@
   }
   th {
     padding: 8px 70px;
-    background-color: #54bab9;
+    background-color: #340c80;
     margin-right: 10%;
     color: #fbf8f1;
     font-size: 18px;
@@ -41,10 +41,10 @@
     align-items: center;
   }
   .paginationBtn {
-    border: 2px solid rgb(127, 216, 216);
+    border: 2px solid #1b4fa9;
     padding: 5px 25px;
     font-size: 16px;
-    color: #54bab9;
+    color: #1b4fa9;
     border-radius: 5px;
     background-color: transparent;
   }
@@ -67,7 +67,7 @@
   }
   #sort_filter_div_head {
     font-size: 25px;
-    color: #4e9291;
+    color: #0d1780;
     backdrop-filter: blur(7px);
   }
   #sortbyFlatNumber , #filterByType {
